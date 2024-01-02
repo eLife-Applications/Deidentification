@@ -3,7 +3,7 @@ import streamlit as st
 # Voeg een titel toe aan je Streamlit-app
 st.title("Anonimiseringstool voor Consultatievragen")
 
-""" # Voeg een bestand uploader toe
+# Voeg een bestand uploader toe
 uploaded_file = st.file_uploader("Importeer hier het CSV-bestand met consultatievragen", type=["csv"])
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file,sep=';')
