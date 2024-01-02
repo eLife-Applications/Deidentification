@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from deidentify.util import mask_annotations
 from deidentify.base import Document
 from deidentify.taggers import CRFTagger, DeduceTagger, FlairTagger
